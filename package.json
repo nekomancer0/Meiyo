@@ -1,0 +1,25 @@
+{
+  "name": "meiyo",
+  "version": "1.0.1",
+  "description": "Meiyo is a **work in progress** library to make HTTP Web Server with Socket Support. It is built on top of the ws and node:http module.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nekomancer",
+  "license": "ISC",
+  "types": "./dist/types",
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.10"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "http",
+    "socket",
+    "websockets"
+  ]
+}
